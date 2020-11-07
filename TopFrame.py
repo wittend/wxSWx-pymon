@@ -109,7 +109,7 @@ class TopFrame(wx.Frame):
 
         sizer_3 = wx.BoxSizer(wx.VERTICAL)
 
-        self.eightSpheres = wx.StaticBitmap(self.topRightNBookPlot, wx.ID_ANY, wx.Bitmap("/home/dave/Pictures/BH_Spheres_08_600.jpg", wx.BITMAP_TYPE_ANY))
+        self.eightSpheres = wx.StaticBitmap(self.topRightNBookPlot, wx.ID_ANY, wx.Bitmap("./bitmaps/BH_Spheres_08_600.jpg", wx.BITMAP_TYPE_ANY))
         sizer_3.Add(self.eightSpheres, 0, wx.ALL, 2)
 
         self.topRightDataPane = wx.Panel(self.topRightNBook, wx.ID_ANY)
@@ -213,7 +213,7 @@ class TopFrame(wx.Frame):
 
         sizer_6 = wx.BoxSizer(wx.VERTICAL)
 
-        self.cabin_in_woods = wx.StaticBitmap(self.topRightWebPane, wx.ID_ANY, wx.Bitmap("/home/dave/Pictures/Cabin in the Romanian woods.jpg", wx.BITMAP_TYPE_ANY))
+        self.cabin_in_woods = wx.StaticBitmap(self.topRightWebPane, wx.ID_ANY, wx.Bitmap("./bitmaps/Cabin in the Romanian woods.jpg", wx.BITMAP_TYPE_ANY))
         sizer_6.Add(self.cabin_in_woods, 0, wx.ALL, 2)
 
         self.topRightWebPane.SetSizer(sizer_6)
