@@ -1,2 +1,2 @@
 # wxSWx-pymon
-A monitoring app for magnetometer data
+A GUI monitoring app for magnetometer data capture
