@@ -10,6 +10,7 @@ import wx.grid
 
 # begin wxGlade: extracode
 import wx
+import wx.adv
 from wx.lib.dialogs import openFileDialog as OFdialog
 import wx.html2 as webview
 import numpy as np
@@ -500,8 +501,8 @@ class TopFrame(wx.Frame):
 
     def OnHelpAbout(self, event):  # wxGlade: TopFrame.<event_handler>
         description = """PyMagMon is a tool for monitoring and presenting data
-from the ground based magnetometer used by the Citizen Science Personal Space
-Weather Station (PSWS) and the Low Cost Space Weather Station.
+from the ground based magnetometer used by the Citizen Science Low Cost Space Weather Station
+and Personal Space Weather Station (PSWS) projects.
 """
 
         licence = """PyMagMon is free software; you can redistribute it and/or
@@ -520,7 +521,7 @@ Suite 330, Boston, MA  02111-1307  USA"""
 
         info = wx.adv.AboutDialogInfo()
 
-        info.SetIcon(wx.Icon('hunter.png', wx.BITMAP_TYPE_PNG))
+        info.SetIcon(wx.Icon('bitmaps/049-windroses_256x256.png', wx.BITMAP_TYPE_PNG))
         info.SetName('PyMagMon')
         info.SetVersion('0.1.0')
         info.SetDescription(description)
