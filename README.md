@@ -3,10 +3,10 @@ A GUI monitoring and postprocessing tool for magnetometer data capture
 <hr />
 
 Requires:
-    # python3.6+
-    # wxPython 4+ (Phoenix)
-    # matplotlib
-    # numpy
+    python3.6+
+    wxPython 4+ (Phoenix)
+    matplotlib
+    numpy
 
 <hr />
 
