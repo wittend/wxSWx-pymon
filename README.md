@@ -14,6 +14,6 @@ A GUI monitoring and postprocessing tool for magnetometer data capture
 
 ## To run, enter:
 
-    $> python3 pyMagMon
+    $> python3 pyMagMon.py
 
 <hr />
